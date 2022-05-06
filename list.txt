@@ -1,3 +1,6 @@
+# Title: customurls
+#
+# ===============================================================
 
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
@@ -14,8 +17,10 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-
-#my custom domains to block
-
+# Custom host records are listed here.
 0.0.0.0 youtube.com
 :: youtube.com
+
+
+
+# End of custom host records.
